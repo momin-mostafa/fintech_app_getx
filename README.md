@@ -12,17 +12,17 @@ Moreover, the [ButtonStyle](https://api.flutter.dev/flutter/material/ButtonStyle
 
 For managing the app's state, we have opted for the Getx framework, which offers powerful state management capabilities. Our architecture follows the GETX Architectural Pattern, a derivative of the [MVC] (Model-View-Controller) with some features of [MVVC] (Model-View-ViewModel-Controller) pattern. This architecture promotes separation of concerns and modularization of code, leading to a more organized and maintainable project structure.
 
-## Pattern for Designing Framework Studies
-- [Prototype](https://refactoring.guru/design-patterns/prototype) Creational Patterns
-- [Builder](https://refactoring.guru/design-patterns/builder) Creational Patterns 
-- [Singleton](https://refactoring.guru/design-patterns/singleton) Creational Patterns 
+## Framework Study Pattern
+### Creational Patterns
+1. [Prototype](https://refactoring.guru/design-patterns/prototype)
+2. [Builder](https://refactoring.guru/design-patterns/builder)
+3. [Singleton](https://refactoring.guru/design-patterns/singleton) 
 
-## Studies Field
-- [Prototype](https://refactoring.guru/design-patterns/prototype)
-  -    How MaterialState Let's us use Elevated button with theme and for corner cases we can use ElevatedButton.styleFrom() where this pattern is used.
-- [Builder](https://refactoring.guru/design-patterns/builder)
-   - To maintain state through GetBuilder it also uses [State](https://refactoring.guru/design-patterns/state) a Behavioral Pattern.
-- [Singleton](https://refactoring.guru/design-patterns/singleton) Creational Patterns. Yet to implement in AuthController. (Study for next R&D)
+## Resources for In-depth Study
+1. **Prototype**: Explore how the `MaterialState` allows the utilization of Elevated Buttons with themes, while addressing unique scenarios through `ElevatedButton.styleFrom()`—an instance of this pattern.
+2. **Builder**: Investigate its application in maintaining state using `GetBuilder`, which is linked with the [State](https://refactoring.guru/design-patterns/state) behavioral pattern.
+3. **Singleton**: Observe its yet-to-be-implemented potential in `AuthController` for future research and development.
+
 
 
 ## Dependency Injection (DI):
