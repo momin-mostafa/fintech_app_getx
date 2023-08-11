@@ -14,6 +14,11 @@ Moreover, the [ButtonStyle](https://api.flutter.dev/flutter/material/ButtonStyle
 
 For managing the app's state, we have opted for the Getx framework, which offers powerful state management capabilities. Our architecture follows the GETX Structurer Design Pattern, a derivative of the [MVVC] (Model-View-ViewModel-Controller) pattern. This architecture promotes separation of concerns and modularization of code, leading to a more organized and maintainable project structure.
 
+## Pattern for Designing Framework Studies
+- [Prototype](https://refactoring.guru/design-patterns/prototype) Creational Patterns
+- [Builder](https://refactoring.guru/design-patterns/builder) Creational Patterns 
+- [Singleton](https://refactoring.guru/design-patterns/singleton) Creational Patterns 
+
 ## Dependency Injection (DI):
 
 Dependency Injection (DI) plays a crucial role in our project, contributing to its scalability and testability. We have leveraged Getx's built-in dependency injection mechanism using the "binding" concept. By binding dependencies to specific routes or views, we ensure that the required dependencies are available when and where they are needed. This promotes a cleaner and more efficient codebase while facilitating the management of dependencies throughout the app.
