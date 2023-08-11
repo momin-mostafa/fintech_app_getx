@@ -10,7 +10,7 @@ Moreover, the [ButtonStyle](https://api.flutter.dev/flutter/material/ButtonStyle
 
 ## Architecture and State Management:
 
-For managing the app's state, we have opted for the Getx framework, which offers powerful state management capabilities. Our architecture follows the GETX Structurer Design Pattern, a derivative of the [MVC] (Model-View-Controller) with some features of [MVVC] (Model-View-ViewModel-Controller) pattern. This architecture promotes separation of concerns and modularization of code, leading to a more organized and maintainable project structure.
+For managing the app's state, we have opted for the Getx framework, which offers powerful state management capabilities. Our architecture follows the GETX Architectural Pattern, a derivative of the [MVC] (Model-View-Controller) with some features of [MVVC] (Model-View-ViewModel-Controller) pattern. This architecture promotes separation of concerns and modularization of code, leading to a more organized and maintainable project structure.
 
 ## Pattern for Designing Framework Studies
 - [Prototype](https://refactoring.guru/design-patterns/prototype) Creational Patterns
