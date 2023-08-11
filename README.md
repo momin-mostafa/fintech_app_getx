@@ -6,9 +6,9 @@ In the "fintech_app_getx" project, we have implemented advanced UI customization
 
 ## UI Customization:
 
-We have utilized the [MaterialStateProperty] class to create dynamic and interactive button styles. This allows us to define different button appearances based on various states, such as normal, hovered, focused, pressed, and disabled. By doing so, we have achieved a visually appealing and user-friendly button design that responds to user interactions in an intuitive manner.
+We have utilized the [MaterialStateProperty](https://api.flutter.dev/flutter/material/MaterialStateProperty-class.html) class to create dynamic and interactive button styles. This allows us to define different button appearances based on various states, such as normal, hovered, focused, pressed, and disabled. By doing so, we have achieved a visually appealing and user-friendly button design that responds to user interactions in an intuitive manner.
 
-Moreover, the [ButtonStyle] class has been employed to encapsulate the visual properties of the [ElevatedButton]. This approach enables us to separate the button's appearance from its behavior, enhancing code modularity and maintainability. With [ButtonStyle], we can easily define properties like text color, background color, padding, and shape, ensuring a consistent and polished UI throughout the app.
+Moreover, the [ButtonStyle](https://api.flutter.dev/flutter/material/ButtonStyle-class.html) class has been employed to encapsulate the visual properties of the [ElevatedButton](https://api.flutter.dev/flutter/material/ElevatedButton-class.html). This approach enables us to separate the button's appearance from its behavior, enhancing code modularity and maintainability. With [ButtonStyle](https://api.flutter.dev/flutter/material/ButtonStyle-class.html), we can easily define properties like text color, background color, padding, and shape, ensuring a consistent and polished UI throughout the app.
 
 ## Architecture and State Management:
 
