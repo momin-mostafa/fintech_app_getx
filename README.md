@@ -106,7 +106,8 @@ Business Logic
      void dependencies() {
        // Inject dependencies for the home view here
        // For example: Get.put(()=> MyController());
-       // You can also use Get.lazyPut<Controller>(()=> Controller.constructor()) or Get.putAsync<Controller>() to   
+       // You can also use Get.lazyPut<Controller>(()=> Controller.constructor())
+       // or Get.putAsync<Controller>().
     
      }
    }
