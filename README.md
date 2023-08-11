@@ -17,6 +17,14 @@ For managing the app's state, we have opted for the Getx framework, which offers
 - [Builder](https://refactoring.guru/design-patterns/builder) Creational Patterns 
 - [Singleton](https://refactoring.guru/design-patterns/singleton) Creational Patterns 
 
+## Studies Field
+- [Prototype](https://refactoring.guru/design-patterns/prototype)
+  -    How MaterialState Let's us use Elevated button with theme and for corner cases we can use ElevatedButton.styleFrom() where this pattern is used.
+- [Builder](https://refactoring.guru/design-patterns/builder)
+   - To maintain state through GetBuilder it also uses [State](https://refactoring.guru/design-patterns/state) a Behavioral Pattern.
+- [Singleton](https://refactoring.guru/design-patterns/singleton) Creational Patterns. Yet to implement in AuthController. (Study for next R&D)
+
+
 ## Dependency Injection (DI):
 
 Dependency Injection (DI) plays a crucial role in our project, contributing to its scalability and testability. We have leveraged Getx's built-in dependency injection mechanism using the "binding" concept. By binding dependencies to specific routes or views, we ensure that the required dependencies are available when and where they are needed. This promotes a cleaner and more efficient codebase while facilitating the management of dependencies throughout the app.
