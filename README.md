@@ -106,7 +106,8 @@ Business Logic
        // For example: Get.put(()=> MyController());
        // You can also use Get.lazyPut<Controller>(()=> Controller.constructor())
        // or Get.putAsync<Controller>(() async => Controller.constructor()). 
-       // The create method ensures adherence to the SOLID principles by returning a Future<void> for . 
+       // The create method ensures adherence to the SOLID principles by returning
+       // a Future<void> for . 
        // putAsync and void for lazyPut.
      }
    }
